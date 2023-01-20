@@ -6,3 +6,6 @@
 - hur man använder Git vid versionshantering. 
 
 ### Den här kursen verkar väldigt rolig och lärorik!👍 
+
+
+- testar att skriva den här raden från VSC efter att ha klonat.
