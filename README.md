@@ -8,4 +8,4 @@
 ### Den här kursen verkar väldigt rolig och lärorik!👍 
 
 
-- testar att skriva den här raden från VSC efter att ha klonat.
+- testar att skriva den här raden från VSC efter att ha klonat. Här har jag använgt git clone-kommandot
