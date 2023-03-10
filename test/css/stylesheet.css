@@ -1,0 +1,1072 @@
+@media only screen and (max-width: 800px) {
+  header {
+    background-color: rgba(232, 17, 17, 0.553);
+    margin-top: 0%;
+    padding: 3%;
+  }
+
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+
+  /*Mobildesign för hamburgermeny*/
+  nav {
+    background-color: rgba(232, 17, 17, 0.853);
+    font-size: 1.4em;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 50vh;
+    width: 50%;
+    display: none;
+    z-index: 1;
+  }
+
+
+  nav ul {
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  nav li {
+    padding: 0.8em 0;
+    width: 100%;
+    font-weight: bold;
+  }
+
+
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 1em;
+  }
+
+  nav a:hover {
+    background-color: #000000;
+    color: #f8f6f6;
+    text-decoration: underline;
+    padding: 5%;
+
+  }
+
+  /* Öppna meny*/
+  .menu-btn {
+    display: flex;
+    align-items: center;
+    padding: 12px 18px;
+    background-color: rgba(232, 17, 17, 0.553);
+    border: white solid 2px;
+    cursor: pointer;
+
+  }
+
+  .menu-btn:hover {
+    background-color: #000000;
+  }
+
+  .open {
+    margin: 0 75%;
+  }
+
+  .menu-bar {
+    margin-right: 10px;
+  }
+
+  .bars {
+    display: block;
+    width: 20px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 5px 0;
+
+  }
+
+  .menu-text {
+    font-size: 1.2em;
+    color: #ffffff;
+  }
+
+  /*menyknapp stäng*/
+  .close {
+    margin: 1em 1.5em;
+    padding: 10px 15px;
+  }
+
+  /* gör de lodräta strecken till ett kryss*/
+
+  .cross1 {
+    width: 25px;
+    transform: rotate(45deg);
+    position: relative;
+    top: 5px;
+  }
+
+  .cross2 {
+    width: 25px;
+    transform: rotate(135deg);
+    position: relative;
+    top: -3px;
+  }
+  
+  .own {
+    background-color: #000000;
+    color: #ffffff;
+    margin-left: 16%;
+    font-size: 2em;
+  }
+
+  .own a {
+    background-color: none;
+  }
+
+  nav ul {
+    width: 100%;
+    margin-bottom: 3%;
+    margin-left: 0%;
+    padding: 1%;
+  }
+
+  nav li {
+    display: inline;
+    padding: 1.1%;
+    text-align: center;
+    margin-left: 0%;
+    width: auto;
+    margin-top: 0%;
+    line-height: 220%;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+
+
+  .navlink {
+    color: #000000;
+    text-decoration: none;
+    background-color: #f3d1d1;
+    margin-left: 0%;
+    padding: 1%;
+  }
+
+  .navlink:hover {
+    color: #ffffff;
+    background-color: #000000;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  .container {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+  .login {
+    background-color: hsl(0, 33%, 96%);
+    padding: 5%;
+
+    margin: 3%;
+    font-size: 1.5em;
+  }
+
+  input[type=text] {
+    font-size: 1.2em;
+    width: 70%;
+  }
+
+  input[type=password],
+  [type=email],
+  [type=firstname],
+  [type=lastname] {
+    font-size: 1.2em;
+    width: 60%;
+  }
+
+  input[type=submit] {
+    padding: 3%;
+    font-size: 1.3em;
+    margin-top: 7%;
+    margin-left: 30%;
+  }
+
+  .blog {
+    margin-right: auto;
+    margin-left: auto;
+    width: 40%;
+    background-color: hsl(0, 33%, 96%);
+    padding: 5%;
+    font-size: 1.5em;
+  }
+
+  input[name="title"] {
+    width: 100%;
+    height: 1em;
+  }
+
+  textarea {
+    width: 100%;
+    height: 6em;
+    font-size: 1.2em;
+  }
+
+  .error {
+    color: red;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+
+  .buttons {
+    display: inline-flex;
+    width: 50%;
+    float: right;
+  }
+
+  .delbutton {
+    padding: 2%;
+    background-color: red;
+    margin-left: 5%;
+    text-decoration: none;
+    color: black;
+    border: black 1px solid;
+
+
+
+  }
+
+  .editbutton {
+    padding: 2%;
+    background-color: rgba(250, 228, 153, 0.977);
+    margin-left: 10%;
+    text-decoration: none;
+    color: black;
+    border: black 1px solid;
+
+
+  }
+
+  .logoutbtn {
+    padding: 2%;
+    background-color: hsl(215, 83%, 77%);
+    border: solid black 1px;
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .logoutbtn:hover {
+    background-color: hsl(215, 83%, 77%);
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  .login {
+    background-color: hsl(0, 33%, 96%);
+    padding: 5%;
+
+    margin: 3%;
+    font-size: 1.5em;
+  }
+
+  .test {
+    color: aqua;
+    font-size: 2em;
+  }
+
+  .error {
+    color: red;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+
+  .row {
+    width: 80%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .boxes {
+    width: 78%;
+    flex-direction: row;
+    border: #000000 solid 1px;
+    margin-top: 5%;
+    background-color: #d3d3d3;
+    padding: 2%;
+  }
+
+  .admin {
+    width: 40%;
+    background-color: #d3d3d3;
+    padding: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 140%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .adminbox {
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    background-color: hsl(0, 33%, 96%);
+    padding: 5%;
+    font-size: 1.5em;
+  }
+
+  .separate {
+    margin-right: auto;
+    margin-left: auto;
+    width: 58%;
+    border: #000000 solid 1px;
+    margin: 0%;
+    background-color: #d3d3d3;
+    padding: 2%;
+  }
+
+  .blogtext {
+    font-family: monospace;
+    font-size: 1em;
+  }
+
+  /* JSfunktionknapp för comments*/
+
+  #expander {
+    margin: 0;
+    padding: 3% 0;
+    display: block;
+    list-style-type: none;
+    text-align: center;
+  }
+
+  .expanderBtn {
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    padding: 1% 0 1% 2%;
+    background-color: rgb(66, 66, 160);
+    color: white;
+    border: none;
+    font-size: 1.2em;
+    text-align: left;
+  }
+
+  .expanderBtn:hover {
+    background-color: rgb(13, 13, 82);
+    cursor: pointer;
+  }
+
+  .arrow {
+    position: absolute;
+    font-size: 1.3em;
+    right: 2%;
+  }
+
+  li {
+    margin: 1.5% 0;
+  }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1024px) {
+
+  header {
+    background-color: rgba(232, 17, 17, 0.553);
+    margin-top: 0%;
+    padding: 1%;
+  }
+
+  body {
+    background-color: rgba(232, 17, 17, 0.553);
+  }
+
+  nav {
+    background-color: rgba(232, 17, 17, 0.853);
+    font-size: 1.4em;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 110vh;
+    width: 50%;
+    display: none;
+
+
+  }
+
+  nav ul {
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+
+  nav li {
+    padding: 0.8em 0;
+    width: 100%;
+    font-weight: bold;
+  }
+
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 1em;
+  }
+
+  nav a:hover {
+    color: #000000;
+    text-decoration: underline;
+    background-color: #EAD1F3;
+    padding: 2%;
+  }
+
+  /* Öppna meny*/
+  .menu-btn {
+    display: flex;
+    align-items: center;
+    padding: 12px 25px;
+    background-color: rgba(232, 17, 17, 0.553);
+    border: white solid 2px;
+    cursor: pointer;
+    margin-top: 0%;
+  }
+
+
+
+  .open {
+    margin: 0 75%;
+  }
+
+  .menu-bar {
+    margin-right: 10px;
+  }
+
+  .bars {
+    display: block;
+    width: 20px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 5px 0;
+
+  }
+
+
+  .menu-text {
+    font-size: 1.2em;
+    color: #ffffff;
+  }
+
+
+  /*menyknapp stäng*/
+  .close {
+    margin: 1em 1.5em;
+    padding: 12px 25px;
+  }
+
+  /* gör de lodräta strecken till ett kryss*/
+
+  .cross1 {
+    width: 25px;
+    transform: rotate(45deg);
+    position: relative;
+    top: 5px;
+  }
+
+  .cross2 {
+    width: 25px;
+    transform: rotate(135deg);
+    position: relative;
+    top: -3px;
+  }
+  
+  .own {
+    background-color: #000000;
+    color: #ffffff;
+    margin-left: 16%;
+    font-size: 2em;
+  }
+
+  .own a {
+    background-color: none;
+  }
+
+  nav ul {
+    width: 100%;
+    margin-bottom: 3%;
+    margin-left: 0%;
+    padding: 1%;
+  }
+
+  nav li {
+    display: inline;
+    padding: 1.1%;
+    text-align: center;
+    margin-left: 0%;
+    width: auto;
+    margin-top: 0%;
+    line-height: 220%;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+
+
+  .navlink {
+    color: #000000;
+    text-decoration: none;
+    background-color: #f3d1d1;
+    margin-left: 0%;
+    padding: 1%;
+  }
+
+  .navlink:hover {
+    color: #ffffff;
+    background-color: #000000;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  .container {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+  .login {
+    background-color: hsl(0, 33%, 96%);
+    padding: 5%;
+
+    margin: 3%;
+    font-size: 1.5em;
+  }
+
+  input[type=text] {
+    font-size: 1.2em;
+    width: 70%;
+  }
+
+  input[type=password],
+  [type=email],
+  [type=firstname],
+  [type=lastname] {
+    font-size: 1.2em;
+    width: 60%;
+  }
+
+  input[type=submit] {
+    padding: 3%;
+    font-size: 1.3em;
+    margin-top: 7%;
+    margin-left: 30%;
+  }
+
+  .blog {
+    margin-right: auto;
+    margin-left: auto;
+    width: 40%;
+    background-color: hsl(0, 33%, 96%);
+    padding: 5%;
+    font-size: 1.5em;
+  }
+
+  input[name="title"] {
+    width: 100%;
+    height: 1em;
+  }
+
+  textarea {
+    width: 100%;
+    height: 6em;
+    font-size: 1.2em;
+  }
+
+  .error {
+    color: red;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+
+  .buttons {
+    display: inline-flex;
+    width: 50%;
+    float: right;
+  }
+
+  .delbutton {
+    padding: 2%;
+    background-color: red;
+    margin-left: 5%;
+    text-decoration: none;
+    color: black;
+    border: black 1px solid;
+
+
+
+  }
+
+  .editbutton {
+    padding: 2%;
+    background-color: rgba(250, 228, 153, 0.977);
+    margin-left: 10%;
+    text-decoration: none;
+    color: black;
+    border: black 1px solid;
+
+
+  }
+
+  .logoutbtn {
+    padding: 2%;
+    background-color: hsl(215, 83%, 77%);
+    border: solid black 1px;
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .logoutbtn:hover {
+    background-color: hsl(215, 83%, 77%);
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  .login {
+    background-color: hsl(0, 33%, 96%);
+    padding: 5%;
+
+    margin: 3%;
+    font-size: 1.5em;
+  }
+
+  .test {
+    color: aqua;
+    font-size: 2em;
+  }
+
+  .error {
+    color: red;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+
+  .row {
+    width: 100%;
+    display: flex;
+  }
+
+  .boxes {
+    width: 18%;
+    flex-direction: column;
+    border: #000000 solid 1px;
+    margin: 1%;
+    background-color: #d3d3d3;
+    padding: 2%;
+  }
+
+  .admin {
+    width: 40%;
+    background-color: #d3d3d3;
+    padding: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 140%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .adminbox {
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    background-color: hsl(0, 33%, 96%);
+    padding: 5%;
+    font-size: 1.5em;
+  }
+
+  .separate {
+    margin-right: auto;
+    margin-left: auto;
+    width: 58%;
+    border: #000000 solid 1px;
+    margin: 0%;
+    background-color: #d3d3d3;
+    padding: 2%;
+  }
+
+  .blogtext {
+    font-family: monospace;
+    font-size: 1em;
+  }
+
+  /* JSfunktionknapp för comments*/
+
+  #expander {
+    margin: 0;
+    padding: 3% 0;
+    display: block;
+    list-style-type: none;
+    text-align: center;
+  }
+
+  .expanderBtn {
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    padding: 1% 0 1% 2%;
+    background-color: rgb(66, 66, 160);
+    color: white;
+    border: none;
+    font-size: 1.2em;
+    text-align: left;
+  }
+
+  .expanderBtn:hover {
+    background-color: rgb(13, 13, 82);
+    cursor: pointer;
+  }
+
+  .arrow {
+    position: absolute;
+    font-size: 1.3em;
+    right: 2%;
+  }
+
+  li {
+    margin: 1.5% 0;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  header {
+    background-color: #000000;
+    margin-top: 0%;
+
+  }
+
+  h1 {
+
+    color: #000000;
+    text-align: center;
+  }
+
+  body {
+    background-color: rgba(251, 249, 249, 0.553);
+  }
+
+  .menu.btn {
+    display: none;
+  }
+
+  #open-menu {
+    display: none !important;
+  }
+
+  #close-menu {
+    display: none !important;
+  }
+
+  header {
+    position: static;
+  }
+
+  .logo a {
+    color: #ffffff;
+    margin-left: 8%;
+    text-decoration: none;
+  }
+
+  nav {
+    display: block !important;
+    position: static;
+    height: auto;
+    font-size: 1.3em;
+    width: auto;
+    margin-left: 0%;
+  }
+
+  .own {
+    background-color: #000000;
+    color: #ffffff;
+    margin-left: 16%;
+    font-size: 2em;
+  }
+
+  .own a {
+    background-color: none;
+  }
+
+  nav ul {
+    width: 100%;
+    margin-bottom: 3%;
+    margin-left: 0%;
+    padding: 1%;
+  }
+
+  nav li {
+    display: inline;
+    padding: 1.1%;
+    text-align: center;
+    margin-left: 0%;
+    width: auto;
+    margin-top: 0%;
+    line-height: 220%;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+
+
+  .navlink {
+    color: #000000;
+    text-decoration: none;
+    background-color: #f3d1d1;
+    margin-left: 0%;
+    padding: 1%;
+  }
+
+  .navlink:hover {
+    color: #ffffff;
+    background-color: #000000;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  .container {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+  .login {
+    background-color: hsl(0, 33%, 96%);
+    padding: 5%;
+
+    margin: 3%;
+    font-size: 1.5em;
+  }
+
+  input[type=text] {
+    font-size: 1.2em;
+    width: 70%;
+  }
+
+  input[type=password],
+  [type=email],
+  [type=firstname],
+  [type=lastname] {
+    font-size: 1.2em;
+    width: 60%;
+  }
+
+  input[type=submit] {
+    padding: 3%;
+    font-size: 1.3em;
+    margin-top: 7%;
+    margin-left: 30%;
+  }
+
+  .blog {
+    margin-right: auto;
+    margin-left: auto;
+    width: 40%;
+    background-color: hsl(0, 33%, 96%);
+    padding: 5%;
+    font-size: 1.5em;
+  }
+
+  input[name="title"] {
+    width: 100%;
+    height: 1em;
+  }
+
+  textarea {
+    width: 100%;
+    height: 6em;
+    font-size: 1.2em;
+  }
+
+  .error {
+    color: red;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+
+  .buttons {
+    display: inline-flex;
+    width: 50%;
+    float: right;
+  }
+
+  .delbutton {
+    padding: 2%;
+    background-color: red;
+    margin-left: 5%;
+    text-decoration: none;
+    color: black;
+    border: black 1px solid;
+  }
+
+  .editbutton {
+    padding: 2%;
+    background-color: rgba(250, 228, 153, 0.977);
+    margin-left: 10%;
+    text-decoration: none;
+    color: black;
+    border: black 1px solid;
+
+
+  }
+
+  .logoutbtn {
+    padding: 2%;
+    background-color: hsl(215, 83%, 77%);
+    border: solid black 1px;
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .logoutbtn:hover {
+    background-color: hsl(215, 83%, 77%);
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  .login {
+    background-color: hsl(0, 33%, 96%);
+    padding: 5%;
+
+    margin: 3%;
+    font-size: 1.5em;
+  }
+
+  .test {
+    color: aqua;
+    font-size: 2em;
+  }
+
+  .error {
+    color: red;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+
+  .row {
+    width: 100%;
+    display: flex;
+  }
+
+  .boxes {
+    width: 18%;
+    flex-direction: column;
+    border: #000000 solid 1px;
+    margin: 1%;
+    background-color: #d3d3d3;
+    padding: 2%;
+  }
+
+  .admin {
+    width: 40%;
+    background-color: #d3d3d3;
+    padding: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 140%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .adminbox {
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    background-color: hsl(0, 33%, 96%);
+    padding: 5%;
+    font-size: 1.5em;
+  }
+
+  .separate {
+    margin-right: auto;
+    margin-left: auto;
+    width: 58%;
+    border: #000000 solid 1px;
+    margin: 0%;
+    background-color: #d3d3d3;
+    padding: 2%;
+  }
+
+  .blogtext {
+    font-family: monospace;
+    font-size: 1em;
+  }
+
+  /* JSfunktionknapp för comments*/
+
+  #expander {
+    margin: 0;
+    padding: 3% 0;
+    display: block;
+    list-style-type: none;
+    text-align: center;
+  }
+
+  .expanderBtn {
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    padding: 1% 0 1% 2%;
+    background-color: rgb(66, 66, 160);
+    color: white;
+    border: none;
+    font-size: 1.2em;
+    text-align: left;
+  }
+
+  .expanderBtn:hover {
+    background-color: rgb(13, 13, 82);
+    cursor: pointer;
+  }
+
+  .arrow {
+    position: absolute;
+    font-size: 1.3em;
+    right: 2%;
+  }
+
+  li {
+    margin: 1.5% 0;
+  }
+  .specblog{
+    border: #000000 solid 1.5px;
+    background-color: #f3d1d1;
+    padding: 2%;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+    margin-left: 50%;
+    margin-top: 0%;
+    margin-bottom: 5%;
+  }
+  .specblog:hover{
+    background-color: #000000;
+    color: #ffffff;
+  }
+  ul{
+    list-style-type: none; 
+  }
+  .OurUsers{
+    text-decoration: none;
+    margin: 3%;
+    background-color: none;
+    
+    font-size: 1.3em;
+    color: #000000;
+  }
+  .OurUsers:hover{
+    text-decoration: underline;
+    font-weight: bold;
+  }
+}
